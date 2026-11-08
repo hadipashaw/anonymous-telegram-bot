@@ -7,7 +7,7 @@ import { isBlocked } from '../lib/blocks.js';
 import { getOrCreateCode, resolveCode } from '../lib/codes.js';
 import { sendMainMenu } from '../lib/panel.js';
 
-const BOT_USERNAME = 'NAMMEH_RESAN_BOT'; // بدون @
+const BOT_USERNAME = 'YOUR BOT ID'; // بدون @
 
 export default async function (message) {
   const text = message.text;
