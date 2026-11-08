@@ -3,7 +3,7 @@ import { eq } from 'sdk/db';
 import { blockedUsers, ownerStats } from '../schema.js';
 import { getOrCreateCode } from './codes.js';
 
-const BOT_USERNAME = 'NAMMEH_RESAN_BOT'; // بدون @
+const BOT_USERNAME = 'YOUR BOT ID'; // بدون @
 
 export function mainMenuKeyboard() {
   return {
